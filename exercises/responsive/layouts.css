@@ -1,0 +1,29 @@
+.wrapper{
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#nav{
+    display: flex;
+    list-style-type: none;
+    
+}
+#nav li{
+    padding: 10px;
+}
+#image{
+    width: 99%;
+    background-color: rgb(204, 204, 204);
+    height: 500px;
+    margin: 5px;
+    border-radius: 3px;
+}
+#okvir{
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 3px;
+}

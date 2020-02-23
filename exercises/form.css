@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#header{
+    background-color:rgba(190, 5, 5, 0.712);
+    color: white;
+    font-size: 20px;
+}
+.gray:nth-child(2n+1){
+    background-color: rgba(224, 218, 218, 0.89);
+}
+tr:hover td{
+    background-color: rgb(243, 186, 81);
+}
+img{
+    height: 100px;
+}
+td{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+td{
+    padding: 15px;
+    font-weight: bold;
+}
+th {
+    padding: 10px;
+}

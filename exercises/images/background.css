@@ -1,0 +1,21 @@
+/* body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/dQDK6eK7OQAvv4DUR24ZwJ5IBDR79u5x0X73yFSaQtr8yZdHQjkn-Z9Fb393cMPHbI497F28EDsV061maktThnvvLKlc0DmQH-wYSJ_5WxiXjtkMBfyD6gQamiHDP3IiokAJ2HIMJLmTDGr0Sa3saw);
+    background-attachment: scroll;  
+   
+} */
+
+
+
+/* body{
+   background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075650785347.jpg?v=1552406695);
+   background-repeat: no-repeat;
+   background-position: right center ;
+   background-attachment: fixed;
+} */
+
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075650785347.jpg?v=1552406695);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    

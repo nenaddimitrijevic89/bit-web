@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: 'freemonoregular';
+    src: url(fontovi/freemono-webfont.woff2) format('woff2'),
+         url(fontovi/freemono-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#prvi{
+
+    text-align: justify;
+    font-family: 'Sriracha', cursive;
+    font-size: 2.4em;
+    text-transform: ;
+    text-decoration: ;
+    width: 400px;
+    height: 500;
+    max-width: 200px;
+
+
+}
+#drugi {
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 500;
+    font-style: oblique;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    width: 600px;
+}
+#treci:first-letter{
+    text-align: right;
+    font-family: sriracha;
+    width: 600px;
+    height: 300px;
+    max-width: 300px;
+
+}
+#cetvrti {
+    font-family: 'freemonoregular', Times, serif;
+
+    
+    
+
+}   
+p span {
+    vertical-align: top;
+    font-size: 200px;
+    
+    font-family: "Lobster";
+}             
+
+li {
+    text-shadow: 3px 5px 1px red;
+    font-size: 25px;
+}
+ul li a {    
+    color: red;
+    font-size: 3.5rem;
+}
+li a {
+    color: seagreen;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: pink;
+}
+#jedan {
+
+    background-color: yellow;
+    height: 250px;
+    width: 300px;
+    overflow: auto;
+    
+
+}
+#dva {
+    background-color: red;
+    height: 250px;
+    width: 300px;
+    overflow: auto;
+
+}

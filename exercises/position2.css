@@ -1,0 +1,54 @@
+div {
+    width: 150px;
+    height: 150px;
+}
+#first{
+    background-color: tomato;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+#second {
+    background-color: yellow;
+    position: relative;
+    left: 150px;
+    top: 25px;
+    z-index: 3;
+}
+#third {
+    background-color: blue;
+    position: relative;
+    left: 200px;
+    top: -25px;
+    z-index: 2;
+}
+#red{
+    background-color: tomato;
+}
+#yellow {
+    background-color: yellow;
+   
+}
+#blue{
+    background-color: blue;
+}
+#prvi {
+    background-color: tomato;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+#drugi {
+    background-color: yellow;
+    position: absolute;
+    bottom: 45px;
+    right: 45px;
+}
+#treci {
+    background-color: blue;
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+}

@@ -1,0 +1,77 @@
+/* #first {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#third {
+    font-family: "Courier New", Courier, monospace;
+}
+
+q {
+    font-family: fantasy;
+} */
+
+* {
+    font-family: monospace;
+}
+
+#first {
+    font-family: monospace;
+    font-family: "Sriracha", cursive;
+}
+
+#second {
+    font-style: oblique;
+}
+
+span {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#prvi {
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+#drugi {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+
+#treci {
+    text-align: center;
+}
+
+ul {
+    font-size: 28px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+    text-shadow: 2px -4px 5px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blue;
+}
