@@ -1,0 +1,53 @@
+.navbar {
+  background-color: #2c3e50; }
+
+.back {
+  background-color: #18bc9c;
+  padding-bottom: 30px; }
+  .back img {
+    padding-top: 50px; }
+
+.naslov {
+  padding-top: 15px;
+  color: white; }
+  .naslov h1 {
+    text-align: center; }
+  .naslov h3 {
+    text-align: center; }
+
+.star {
+  transform: translateY(10px); }
+
+.boja {
+  color: black; }
+
+.slika {
+  width: 100%; }
+
+.star-line {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.line {
+  height: 2px;
+  width: 100px;
+  margin: 0 5px;
+  background-color: white; }
+
+.fa-star {
+  color: white; }
+
+.line1 {
+  height: 2px;
+  width: 100px;
+  margin: 0 5px;
+  background-color: black; }
+
+.zvezda {
+  color: black; }
+
+.pictures {
+  width: 70%; }
+
+/*# sourceMappingURL=style.css.map */
