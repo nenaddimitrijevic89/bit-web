@@ -1,28 +1,39 @@
 .navbar {
-  background-color: #2c3e50; }
+  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9; }
 
 .back {
-  background-color: #18bc9c;
-  padding-bottom: 30px; }
-  .back img {
-    padding-top: 50px; }
+  background-color: #18bc9c; }
+
+.back img {
+  padding-top: 120px; }
 
 .naslov {
-  padding-top: 15px;
   color: white; }
-  .naslov h1 {
-    text-align: center; }
-  .naslov h3 {
-    text-align: center; }
 
-.star {
-  transform: translateY(10px); }
+.naslov h1 {
+  text-align: center;
+  font-size: 40px; }
+
+.naslov h3 {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 30px; }
+
+#first-title {
+  font-size: 50px; }
 
 .boja {
   color: black; }
 
 .slika {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 30px; }
 
 .star-line {
   display: flex;
@@ -30,7 +41,7 @@
   justify-content: center; }
 
 .line {
-  height: 2px;
+  height: 4px;
   width: 100px;
   margin: 0 5px;
   background-color: white; }
@@ -39,7 +50,7 @@
   color: white; }
 
 .line1 {
-  height: 2px;
+  height: 4px;
   width: 100px;
   margin: 0 5px;
   background-color: black; }
@@ -47,7 +58,71 @@
 .zvezda {
   color: black; }
 
-.pictures {
-  width: 70%; }
+.tata {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px; }
+
+.about {
+  background-color: #18bc9c;
+  margin-top: 60px; }
+  .about p {
+    color: white;
+    padding-top: 5px; }
+  .about .about-par {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 50px; }
+
+.text-center {
+  padding-bottom: 50px;
+  padding-top: 20px; }
+
+.btn {
+  background-color: #18bc9c;
+  color: white;
+  border: 2px solid #18bc9c; }
+
+.btn:hover {
+  background-color: white;
+  color: #18bc9c;
+  border: 2px solid #18bc9c; }
+
+.btn1 {
+  border: 2px solid white; }
+
+.form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+#form {
+  margin-bottom: 120px; }
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding-top: 30px; }
+
+#logos img {
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px; }
+
+#gray-color {
+  color: gray;
+  font-size: 12px; }
+
+#copy {
+  padding-bottom: 10px; }
+
+.parag {
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,135 @@
+$green: #18bc9c;
+$blue: #2c3e50;
+.navbar {
+    background-color: $blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+   }
+  
+  .back {
+    background-color: $green;
+   }
+    .back img {
+      padding-top: 120px; }
+  
+  .naslov {
+    color: white; 
+  }
+    .naslov h1 {
+      text-align: center;
+    font-size: 40px; }
+    .naslov h3 {
+      text-align: center;
+      font-size: 15px;
+      padding-top: 15px;
+      padding-bottom: 30px;
+     }
+     #first-title{
+       font-size: 50px;
+     }
+  
+ 
+  
+  .boja {
+    color: black; }
+  
+  .slika {
+    width: 100%;
+  padding-bottom: 30px; }
+  
+  .star-line {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  
+  .line {
+    height: 4px;
+    width: 100px;
+    margin: 0 5px;
+    background-color: white; }
+  
+  .fa-star {
+    color: white; }
+  
+  .line1 {
+    height: 4px;
+    width: 100px;
+    margin: 0 5px;
+    background-color: black; }
+  
+  .zvezda {
+    color: black;
+  }
+ 
+  .tata{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .about{
+    background-color: $green;
+    margin-top: 60px; 
+    p{
+      color: white;
+      padding-top: 5px;
+    }
+    .about-par{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  } 
+  h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+.text-center{
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.btn{
+  background-color: $green;
+  color: white;
+  border:2px solid $green;
+}
+.btn:hover{
+  background-color: white;
+  color: $green;
+  border: 2px solid $green;
+}
+.btn1{
+  border: 2px solid white;
+}
+.form-control{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#form{
+  margin-bottom: 120px;
+}
+.footer{
+  background-color: $blue;
+  color: white;
+  padding-top: 30px;
+}
+#logos img{
+ width: 50px;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 10px;
+}
+#gray-color{
+  color: gray;
+  font-size: 12px;
+}
+#copy{
+  padding-bottom: 10px;
+}
+.parag{
+  margin-bottom: 0px;
+}
