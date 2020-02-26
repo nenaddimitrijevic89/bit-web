@@ -1,0 +1,108 @@
+/***   navbar ***/
+#first-section{
+    position: relative;
+    #banner{
+        width: 100%;
+    }
+}
+header{
+    position: absolute;
+    top: 3%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    h3{
+        color: white;
+        span{
+            color: orange;
+        }
+    }
+    p{
+        color: white;
+    }
+}
+#head-center{
+    color: white;
+    position: absolute;
+    width: 100%;
+    top:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    span{
+        color: orange;
+    }
+    #head-p{
+        width: 50%;
+        text-align: justify;
+    }
+    p>button{
+        text-align: center;
+        color: white;
+    }
+    button:hover{
+        background-color: orange;
+        border: none;
+        
+    }
+}
+@media all and(max-width: 780px){
+    #banner{
+        height: 370px
+    }
+}
+#second-section{
+    display: flex;
+    justify-content: space-around;
+    .icons{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            width: 50%;
+            text-align: center;
+        }
+    }
+    .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        height: 110px;
+        border: 1px solid gray;
+        border-radius: 50%;
+    }
+}
+#third-section{
+    position: relative;
+    #third-center{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        #space{
+            width: 15px;
+        }
+        input{
+            height: 35px;
+        }
+        #input{
+            width: 320px;
+            border-radius: 8px;
+            border: none;
+        }
+        #submit{
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            width: 150px;
+        }
+    }
+}
