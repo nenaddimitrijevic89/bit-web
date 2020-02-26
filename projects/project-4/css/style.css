@@ -33,14 +33,39 @@ header {
     text-align: justify; }
   #head-center p > button {
     text-align: center;
-    color: white; }
+    color: white;
+    border: 1px solid white; }
   #head-center button:hover {
     background-color: orange;
-    border: none; }
+    transition: ease-in 0.3s;
+    border: orange solid 1px; }
 
+@media all and (max-width: 927px) {
+  header h3 {
+    font-size: 19px; }
+
+  #head-center {
+    position: absolute;
+    top: 30%; }
+    #head-center h1 {
+      font-size: 29px; } }
 @media all and (max-width: 780px) {
   #banner {
-    height: 370px; } }
+    height: 370px; }
+
+  header h3 {
+    font-size: 19px; }
+
+  #head-center {
+    position: absolute;
+    top: 30%; }
+    #head-center h1 {
+      font-size: 28px; }
+    #head-center #head-p {
+      font-size: 14px; }
+
+  #third-section img {
+    height: 95px; } }
 #second-section {
   display: flex;
   justify-content: space-around; }
@@ -60,8 +85,13 @@ header {
     justify-content: center;
     width: 110px;
     height: 110px;
-    border: 1px solid gray;
-    border-radius: 50%; }
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-bottom: 5px; }
+  #second-section .circle:hover {
+    border: orange solid 2px;
+    background: gray;
+    transition: ease-in 0.3s; }
 
 #third-section {
   position: relative; }
@@ -72,7 +102,8 @@ header {
     display: flex;
     justify-content: center; }
     #third-section #third-center #space {
-      width: 15px; }
+      width: 15px;
+      height: 15px; }
     #third-section #third-center input {
       height: 35px; }
     #third-section #third-center #input {
@@ -84,6 +115,14 @@ header {
       color: white;
       border: none;
       border-radius: 8px;
-      width: 150px; }
+      width: 150px;
+      font-weight: bold; }
+    #third-section #third-center #submit:hover {
+      background-color: gray;
+      color: orange;
+      transition: ease-in 0.3s;
+      border: orange solid 1px; }
+  #third-section img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
