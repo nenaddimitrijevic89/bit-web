@@ -37,7 +37,7 @@ header {
         color: orange;
     }
     #head-p {
-        width: 50%;
+        width: 45%;
         text-align: justify;
     }
     p>button {
@@ -50,6 +50,9 @@ header {
         transition: ease-in 0.3s;
         border: orange solid 1px;
     }
+    h1 {
+        font-size: 50px;
+    }
 }
 
 @media all and(max-width: 927px) {
@@ -60,7 +63,7 @@ header {
         position: absolute;
         top: 30%;
         h1 {
-            font-size: 29px;
+            font-size: 34px;
         }
     }
 }
@@ -85,6 +88,16 @@ header {
     #third-section {
         img {
             height: 95px;
+        }
+    }
+}
+
+@media all and(max-width: 524px) {
+    #third-section {
+        position: relative;
+        #third-center {
+            position: absolute;
+            top: 20px;
         }
     }
 }
@@ -125,7 +138,7 @@ header {
     position: relative;
     #third-center {
         position: absolute;
-        top: 50%;
+        top: 35%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -140,23 +153,33 @@ header {
             width: 320px;
             border-radius: 8px;
             border: none;
+            margin-bottom: 10px;
         }
         #submit {
             background-color: orange;
             color: white;
             border: none;
             border-radius: 8px;
-            width: 150px;
+            width: 190px;
             font-weight: bold;
         }
         #submit:hover {
-            background-color: gray;
-            color: orange;
+            //background-color: gray;
+            //color: orange;
             transition: ease-in 0.3s;
             border: orange solid 1px;
         }
     }
     img {
         width: 100%;
+        height: 150px;
+    }
+}
+
+.titles {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    span {
+        color: orange;
     }
 }

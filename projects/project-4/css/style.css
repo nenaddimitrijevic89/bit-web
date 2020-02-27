@@ -29,7 +29,7 @@ header {
   #head-center span {
     color: orange; }
   #head-center #head-p {
-    width: 50%;
+    width: 45%;
     text-align: justify; }
   #head-center p > button {
     text-align: center;
@@ -39,6 +39,8 @@ header {
     background-color: orange;
     transition: ease-in 0.3s;
     border: orange solid 1px; }
+  #head-center h1 {
+    font-size: 50px; }
 
 @media all and (max-width: 927px) {
   header h3 {
@@ -48,7 +50,7 @@ header {
     position: absolute;
     top: 30%; }
     #head-center h1 {
-      font-size: 29px; } }
+      font-size: 34px; } }
 @media all and (max-width: 780px) {
   #banner {
     height: 370px; }
@@ -66,6 +68,12 @@ header {
 
   #third-section img {
     height: 95px; } }
+@media all and (max-width: 524px) {
+  #third-section {
+    position: relative; }
+    #third-section #third-center {
+      position: absolute;
+      top: 20px; } }
 #second-section {
   display: flex;
   justify-content: space-around; }
@@ -97,7 +105,7 @@ header {
   position: relative; }
   #third-section #third-center {
     position: absolute;
-    top: 50%;
+    top: 35%;
     width: 100%;
     display: flex;
     justify-content: center; }
@@ -109,20 +117,26 @@ header {
     #third-section #third-center #input {
       width: 320px;
       border-radius: 8px;
-      border: none; }
+      border: none;
+      margin-bottom: 10px; }
     #third-section #third-center #submit {
       background-color: orange;
       color: white;
       border: none;
       border-radius: 8px;
-      width: 150px;
+      width: 190px;
       font-weight: bold; }
     #third-section #third-center #submit:hover {
-      background-color: gray;
-      color: orange;
       transition: ease-in 0.3s;
       border: orange solid 1px; }
   #third-section img {
-    width: 100%; }
+    width: 100%;
+    height: 150px; }
+
+.titles {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+  .titles span {
+    color: orange; }
 
 /*# sourceMappingURL=style.css.map */
