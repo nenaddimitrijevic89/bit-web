@@ -53,27 +53,27 @@
 
 /****   local.storage   ****/
 
-// function storeData(a, b) {
-//     window.localStorage.setItem(a, b)
-// }
+function storeData(a, b) {
+    window.localStorage.setItem(a, b)
+}
 
-// storeData("age", "32");
+//storeData("age", "32");
 
-// function readData() {
-//     var age = localStorage.getItem("age");
+function readData() {
+    var age = localStorage.getItem("age");
 
-//     if (age) {
-//         console.log(age)
-//     } else {
-//         console.log("There is no data")
-//     }
-// }
+    if (age) {
+        console.log(age)
+    } else {
+        console.log("There is no data")
+    }
+}
 
-// readData();
+readData();
 
-// function clearData(a) {
-//     window.localStorage.removeItem(a);
-// }
+function clearData(a) {
+    window.localStorage.removeItem(a);
+}
 
 /****    window methods   ****/
 
@@ -83,5 +83,6 @@
 //     if (answer) {
 //         confirm("We will submit this answer " + answer)
 //     }
+//     console.log("Hirurgija");
 // }
-
+// greeting();

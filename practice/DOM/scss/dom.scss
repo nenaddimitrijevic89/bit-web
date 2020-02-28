@@ -1,0 +1,20 @@
+#first{
+    background-color: blue;
+}
+#second{
+    background-color: lightgreen;
+}
+#second.changeColor{
+    background-color: red;
+}
+.colorText{
+    color: rgb(73, 77, 65);
+}
+.colorBgTx{
+    color: black;
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+}
+.active{
+    background-color: yellow;
+}
