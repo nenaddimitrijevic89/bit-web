@@ -1,21 +1,17 @@
-#first {
-  background-color: blue; }
-
-#second {
-  background-color: lightgreen; }
-
-#second.changeColor {
+.background {
   background-color: red; }
 
-.colorText {
-  color: #494d41; }
+.blue-bg {
+  background-color: lightblue; }
 
-.colorBgTx {
-  color: black;
-  background-color: cornflowerblue;
+.green-bg {
+  background-color: lightgreen; }
+
+.textAndColor {
+  background-color: purple;
   text-transform: uppercase; }
 
 .active {
-  background-color: yellow; }
+  background-color: orange; }
 
 /*# sourceMappingURL=dom.css.map */

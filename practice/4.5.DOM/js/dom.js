@@ -1,56 +1,74 @@
-// function change() {
-//     document.getElementById("second").className = "changeColor";
-// }
-// change();
+/*****   Selecting One/Multiple Elements    *****/
 
-// function selectAll() {
-//     var a = document.getElementsByTagName("li");
+// function changeBackground() {
+//     var a = document.getElementById("second-ul");
+//     a.className = "background";
+// }
+// changeBackground();
+
+// function selectLiElements() {
+//     var a = document.querySelectorAll("li");
 //     for (var i = 0; i < a.length; i++) {
-//         a[i].className = "colorText";
+//         if (i % 2 === 0) {
+//             a[i].className = "blue-bg";
+//         } else {
+//             a[i].className = "green-bg";
+//         }
 //     }
 // }
-// selectAll();
+// selectLiElements();
 
-// function changeFont() {
-//     var b = document.querySelectorAll("#third li");
-//     for (var i = 0; i < b.length; i++) {
-//         b[i].className = "colorBgTx";
+// function thirdList() {
+//     var a = document.querySelectorAll(".third-li");
+//     for (var i = 0; i < a.length; i++) {
+//         a[i].className = "textAndColor";
 //     }
 // }
-// changeFont();
+// thirdList();
 
+/*****    Traversing   *****/
 
-// function removeCll() {
-//     var c = document.querySelector(".active");
-//     c.className = "";
-//     c.parentElement.parentElement.previousElementSibling.firstElementChild.firstElementChild.className = "active";
+// function changeElement() {
+//     var a = document.querySelector(".active");
+//     a.className = "";
+//     a.parentElement.parentElement.previousElementSibling.firstElementChild.firstElementChild.className =
+//         "active";
 // }
-// removeCll();
+//changeElement();
 
-// function nav() {
-//     var a = document.querySelector("ul");
-//     alert(a.firstElementChild.textContent)
+/*****    Access/Update Text Node    ******/
+
+// function takeElement() {
+//     var a = document.querySelector("#sixth-ul");
+//     alert(a.firstElementChild.textContent);
 // }
-// nav();
+// takeElement();
 
-// function takeText(input) {
-//     var b = document.querySelector("ul");
-//     b.lastElementChild.textContent = input;
+// function changeText(input) {
+//     var a = document.querySelector("#sixth-ul");
+//     a.lastElementChild.textContent = input;
 // }
-// takeText("Hirurgijaaaaaaaaaaa");
+// changeText("Film");
 
-// var b = document.querySelector("div");
-// var dropdown = document.createElement("select");
+/*******  InnerHTML  *******/
 
-
-// function createDropdown(arr, el) {
-
+// function createDropdown(arr, elem) {
+//     var div = document.querySelector(elem);
+//     var select = document.createElement("select");
 //     for (var i = 0; i < arr.length; i++) {
-//         var opt = document.createElement("option");
-//         opt.textContent = arr[i];
-//         dropdown.appendChild(opt);
+//         var option = document.createElement("option");
+//         option.textContent = arr[i];
+//         select.appendChild(option);
 //     }
-//     b.appendChild(dropdown);
+//     div.appendChild(select);
 // }
-// createDropdown(["", "Bmw", "Audi", "Mercedes", "yugo"], b);
+// createDropdown(["Yugo", "Audi", "Mercedes"], "#first-div");
+// createDropdown(["Ananas", "Banane", "Jabuke"], "#second-div");
 
+/*******  Removing Elements  ******/
+
+// function removeEl(el) {
+//     var child = document.querySelector(el);
+//     var parent = child.parentElement;
+//     parent.removeChild(child);
+// }

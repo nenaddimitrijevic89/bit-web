@@ -1,20 +1,20 @@
-#first{
-    background-color: blue;
-}
-#second{
-    background-color: lightgreen;
-}
-#second.changeColor{
+.background {
     background-color: red;
 }
-.colorText{
-    color: rgb(73, 77, 65);
+
+.blue-bg {
+    background-color: lightblue;
 }
-.colorBgTx{
-    color: black;
-    background-color: cornflowerblue;
+
+.green-bg {
+    background-color: lightgreen;
+}
+
+.textAndColor {
+    background-color: purple;
     text-transform: uppercase;
 }
-.active{
-    background-color: yellow;
+
+.active {
+    background-color: orange;
 }
