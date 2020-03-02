@@ -14,4 +14,16 @@
 .active {
   background-color: orange; }
 
+/*********/
+form {
+  display: flex;
+  flex-direction: column;
+  width: 150px; }
+
+img {
+  display: none; }
+
+img.active {
+  display: block; }
+
 /*# sourceMappingURL=dom.css.map */

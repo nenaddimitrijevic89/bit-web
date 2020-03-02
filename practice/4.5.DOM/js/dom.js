@@ -72,3 +72,55 @@
 //     var parent = child.parentElement;
 //     parent.removeChild(child);
 // }
+
+
+/******    Attributes   *******/
+
+// var createForm = function (type, label, req) {
+//     var form = document.querySelector("form");
+
+//     var inputEl = document.createElement("input");
+//     var labelEl = document.createElement("label");
+//     var text = document.createTextNode(label);
+
+//     inputEl.setAttribute("type", type);
+//     labelEl.appendChild(text);
+//     if (req) {
+//         inputEl.setAttribute("required", "required");
+//     }
+//     form.appendChild(labelEl)
+//     form.appendChild(inputEl);
+// }
+
+// createForm("text", "name", true);
+// createForm("password", "password");
+// createForm("submit", "submit")
+
+
+
+
+// var a = ["nature1.jpg", "nature2.jpg", "nature3.jpg"];
+// var div = document.querySelector("#third-div");
+
+// function addImages(arr, el) {
+//     for (var i = 0; i < arr.length; i++) {
+//         var img = document.createElement("img");
+//         img.setAttribute("src", './images/' + arr[i]);
+//         el.appendChild(img);
+//     }
+//     document.querySelector("div img").classList.add("active");
+// }
+
+// function slide() {
+//     var active = document.querySelector('.active');
+//     active.classList.remove("active");
+
+//     if (active.nextElementSibling) {
+//         active.nextElementSibling.classList.add("active");
+//     } else {
+//         document.querySelector("div img").classList.add("active");
+//     }
+// }
+
+// addImages(a, div);
+// setInterval(slide, 1000);
