@@ -1,19 +1,24 @@
-#first{
+#first {
     list-style-type: circle;
 }
-#second{
+
+#second {
     list-style-type: square;
 }
-#third{
+
+#third {
     list-style-type: upper-alpha;
 }
-#fourth{
+
+#fourth {
     list-style-type: upper-roman;
 }
-.check{
+
+.check {
     width: 200px;
-    list-style-image: url('../check.png') ;
+    list-style-image: url("check.png");
 }
-#sixth{
+
+#sixth {
     list-style-position: inside;
 }
