@@ -20,10 +20,16 @@ form {
   flex-direction: column;
   width: 150px; }
 
-img {
+.img-div {
+  height: 300px;
+  width: 900px; }
+
+.img-none {
   display: none; }
 
-img.active {
-  display: block; }
+#third-div {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=dom.css.map */

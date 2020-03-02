@@ -19,16 +19,34 @@
     background-color: orange;
 }
 
+
 /*********/
 
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 150px;
 }
-img{
+
+img {
+    //display: none;
+}
+
+img.active {
+    //display: block;
+}
+
+.img-div {
+    height: 300px;
+    width: 900px;
+}
+
+.img-none {
     display: none;
 }
-img.active{
-    display: block;
+
+#third-div {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
