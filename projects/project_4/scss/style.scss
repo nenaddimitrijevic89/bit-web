@@ -38,7 +38,8 @@ header {
     }
     #head-p {
         width: 45%;
-        text-align: justify;
+        font-size: 20px;
+        text-align: center;
     }
     p>button {
         text-align: center;
@@ -98,6 +99,7 @@ header {
         #third-center {
             position: absolute;
             top: 20px;
+            left:20px;
         }
     }
 }
@@ -164,8 +166,6 @@ header {
             font-weight: bold;
         }
         #submit:hover {
-            //background-color: gray;
-            //color: orange;
             transition: ease-in 0.3s;
             border: orange solid 1px;
         }
@@ -182,4 +182,8 @@ header {
     span {
         color: orange;
     }
+}
+.fourth-image{
+    width: 100%;
+    padding-bottom: 30px;
 }
