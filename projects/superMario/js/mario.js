@@ -1,53 +1,62 @@
-var run = document.querySelector("#move");
-var stand = document.querySelector("#stand");
 var body = document.querySelector("body");
+var marioRun = document.querySelector("#run");
+var marioStand = document.querySelector("#stand");
 var value = 0;
 var interval;
 
-var moveImage = function () {
+var backMove = function() {
     body.style.backgroundPosition = value + "px 0px";
-}
+};
 
-
-var move = function (event) {
+var moveMario = function(event) {
     if (event.keyCode === 39) {
-        stand.className = "no-active";
-        run.className = "active";
+        marioRun.className = "active";
+        marioStand.className = "no-active";
         value--;
-        interval = setInterval(moveImage, 50);
+        setInterval(backMove, 100);
     }
-}
+};
 
-var stop = function (event) {
+var stopMario = function(event) {
     if (event.keyCode === 39) {
-        run.className = "no-active";
-        stand.className = "active";
+        marioRun.className = "no-active";
+        marioStand.className = "active";
     }
-}
+};
 
-
-var moveLeft = function (event) {
+var moveLeft = function(event) {
     if (event.keyCode === 37) {
-        stand.className = "no-active";
-        run.className = "active left";
+        marioRun.className = "active left";
+        marioStand.className = "no-active left";
         value++;
-        interval = setInterval(moveImage, 50);
+        setInterval(backMove, 100);
     }
-}
+};
 
-var stopLeft = function (event) {
+var stopLeft = function(event) {
     if (event.keyCode === 37) {
-        run.className = "no-active";
-        stand.className = "active left";
+        marioRun.className = "no-active left";
+        marioStand.className = "active left";
     }
-}
+};
 
+var jump = function(event) {
+    if (event.keyCode === 32) {
+        marioStand.className = "jump";
+    }
+};
 
-body.addEventListener("keydown", move);
-body.addEventListener("keyup", stop);
+var jumpBack = function(event) {
+    if (event.keyCode === 32) {
+        marioStand.classList.remove("jump");
+    }
+};
+
+body.addEventListener("keydown", moveMario);
+body.addEventListener("keyup", stopMario);
+
 body.addEventListener("keydown", moveLeft);
 body.addEventListener("keyup", stopLeft);
 
-
-
-
+body.addEventListener("keydown", jump);
+body.addEventListener("keyup", jumpBack);

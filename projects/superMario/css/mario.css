@@ -1,29 +1,39 @@
-body{
+body {
     background-image: url(../images/bg.jpg);
-    background-repeat: repeat;
-    background-size: cover;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-position: 0 0;
+    top: 0;
+    left: 0;
+    background-size: cover;
 }
-div{
+
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 48%;
+    top: 71%;
+}
+
+img {
     position: absolute;
-    width: 100px;
-    bottom: 9%;
-    left: 45%;
+    width: 150px;
+    height: 150px;
 }
-.no-active{
+
+.active {
+    display: block;
+}
+
+.no-active {
     display: none;
 }
-.active{
-    position: absolute;
-    width: 100px;
-    bottom: 9%;
-    left: 45%;
-}
-.left{
+
+.left {
     transform: rotateY(180deg);
+}
+
+.jump {
+    bottom: 80%;
 }
