@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,GAAG;EACC,KAAK,EAAE,KAAK;;AAEhB,QAAQ;EACJ,gBAAgB,EAAE,MAAM;;AAE5B,eAAe;EACX,gBAAgB,EAAE,WAAW",
-"sources": ["../scss/footballTeam.scss"],
-"names": [],
-"file": "footballTeam.css"
-}
