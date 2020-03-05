@@ -1,6 +1,8 @@
 #first-team {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  border-bottom: 4px solid red;
+  margin-bottom: 20px; }
 
 #second-team {
   display: flex;
@@ -10,7 +12,7 @@
   background-color: orange;
   width: 200px;
   border-radius: 0 0 15px 15px;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .reservePlayers {
   background-color: orange;
