@@ -1,0 +1,11 @@
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
