@@ -1,11 +1,30 @@
-#logo{
+#logo {
     width: 70px;
 }
-img{
-    width: 100%;
+
+img {
+    width: 70px;
 }
-body{
-    background-image: url(../images/logo.png);
+
+body {
+    background-image: url(../images/back.jpg);
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-size: cover;
+}
+
+.main {
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 2px 13px 19px 5px black;
+    opacity: 0.90;
+}
+
+.pictures {
+    width: 300px;
+    height: 200px;
+}
+
+iframe {
+    margin: 0 auto;
 }
