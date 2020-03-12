@@ -1,0 +1,11 @@
+#logo{
+    width: 70px;
+}
+img{
+    width: 100%;
+}
+body{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
