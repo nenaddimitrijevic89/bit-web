@@ -15,6 +15,7 @@ let season = document.createElement("h3");
 let ulSeason = document.createElement("ul");
 let cast = document.createElement("h3");
 let ulCast = document.createElement("ul");
+let description = document.querySelector(".description");
 
 let request = new XMLHttpRequest();
 request.open("GET", `http://api.tvmaze.com/shows/${urlId}`);
@@ -31,6 +32,7 @@ request.onload = function() {
     h1.textContent = data.name;
     title.appendChild(img);
     poster.appendChild(title);
+    description.innerHTML = data.summary;
 };
 
 let seasonsRequest = new XMLHttpRequest();
@@ -60,7 +62,7 @@ castRequest.onload = function() {
     cast.textContent = "Cast";
     about.appendChild(cast);
     about.appendChild(ulCast);
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < 10; i++) {
         let li = document.createElement("li");
         li.textContent = `${data[i].person.name} (${data[i].character.name})`;
         ulCast.appendChild(li);

@@ -1,4 +1,4 @@
-.container-fluid {
+.header {
     margin-bottom: 20px;
 }
 
@@ -18,10 +18,10 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
+    height: 70px;
+    margin-top: 20px;
 }
 
-// @media only screen and (max-width: 519px) {
-//     .title {
-//         margin: 0 auto;
-//     }
-// }
+.details {
+    margin-top: 10px;
+}

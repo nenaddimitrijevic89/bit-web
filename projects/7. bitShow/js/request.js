@@ -8,3 +8,9 @@ let object = function(id) {
         return data;
     };
 };
+
+let arr = [];
+for (let j = 0; j < data.length; j++) {
+    arr.push(data[j].rating.average + "-" + data[j].id);
+}
+console.log(arr);

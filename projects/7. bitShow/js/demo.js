@@ -8,13 +8,20 @@ request.send();
 request.onload = function() {
     let data = JSON.parse(request.responseText);
     console.log(data);
-
+    data.sort((a, b) => {
+        if (a.rating.average > b.rating.average) {
+            return -1;
+        } else {
+            return 1;
+        }
+    });
+    console.log(data);
     for (let i = 0; i < 50; i++) {
         let img = document.createElement("img");
         let h3 = document.createElement("h3");
         let title = document.createElement("div");
         let link = document.createElement("a");
-        link.setAttribute("href", "profile.html?id=" + data[i].id);
+        link.setAttribute("href", `profile.html?id=${data[i].id}`);
         link.setAttribute("target", "_blank");
         title.className = "col title";
         img.setAttribute("src", data[i].image.medium);
