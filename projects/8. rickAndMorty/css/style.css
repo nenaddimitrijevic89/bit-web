@@ -1,0 +1,29 @@
+body {
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px; }
+
+img {
+  width: 150px; }
+
+button {
+  width: 150px; }
+
+.profile {
+  margin-bottom: 35px; }
+  .profile h5 {
+    background-color: #cae770;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 100%; }
+
+.page {
+  margin-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */
