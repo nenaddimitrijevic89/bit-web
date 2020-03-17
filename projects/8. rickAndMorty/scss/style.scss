@@ -1,34 +1,82 @@
-    body {
-        background-image: url(../images/back.jpg);
-        background-size: cover;
-        background-attachment: fixed;
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    opacity: 1;
+}
+
+#logo {
+    width: 300px;
+}
+
+.page-item {
+    padding-left: 10px;
+}
+
+.previous {
+    background-color: #cae770;
+}
+
+.next {
+    background-color: #cae770;
+}
+
+.profile {
+    margin-bottom: 35px;
+    h5 {
+        color: #cae770;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
     }
-    
-    .main {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 15px;
-    }
-    
     img {
+        border-radius: 7px 7px 0 0;
         width: 150px;
     }
-    
-    button {
-        width: 150px;
+}
+
+button {
+    opacity: 0.5;
+    border: 2px solid #cae770;
+    border-radius: 0 0 7px 7px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #cae770;
+    box-shadow: 1px 1px 5px 4px #cae770;
+    opacity: 1;
+}
+
+.active {
+    background-color: #cae770;
+    opacity: 1;
+    font-weight: bold;
+    color: #00b0c8;
+}
+
+
+/**************           profile.html style           **********/
+
+.profileMain {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    span {
+        color: #cae770;
     }
-    
-    .profile {
-        margin-bottom: 35px;
-        h5 {
-            background-color: #cae770;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            border-radius: 10px;
-            width: 100%;
-        }
+    h1 {
+        color: #00b0c8;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    
-    .page {
-        margin-top: 15px;
+    .about {
+        text-align: left;
+        padding-left: 45px;
     }
+}
