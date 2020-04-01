@@ -1,0 +1,79 @@
+/***********   main    ***********/
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.listOfShows {
+    margin-top: 55px;
+}
+
+.searcher {
+    justify-content: flex-end;
+    margin-right: 5px;
+    ul {
+        margin-top: 50px;
+        position: fixed;
+        right: 8%;
+        z-index: 1;
+        background-color: #343a40;
+        color: white;
+        width: 220px;
+        list-style-type: none;
+        padding: 10px;
+        box-shadow: 6px 3px 8px 2px black;
+        a>li {
+            text-decoration: none;
+            color: white;
+        }
+        li:hover {
+            text-decoration: none;
+            color: orange;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.footer {
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        width: 40px;
+    }
+}
+
+
+/************    homepage    **************/
+
+.card {
+    background-color: orange;
+    margin: 20px;
+    h5,
+    h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/*****************     singleShow page     *****************/
+
+.poster {
+    img {
+        width: 100%;
+    }
+}
