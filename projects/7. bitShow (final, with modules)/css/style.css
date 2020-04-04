@@ -1,4 +1,7 @@
 /***********   main    ***********/
+* {
+  font-family: 'Comic Neue', cursive; }
+
 li {
   list-style-type: none; }
 
@@ -29,7 +32,8 @@ li {
       color: white; }
     .searcher ul li:hover {
       text-decoration: none;
-      color: orange; }
+      color: orange;
+      font-weight: 700; }
     .searcher ul a {
       text-decoration: none; }
 
@@ -51,9 +55,25 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center; }
+  .card p {
+    text-align: justify; }
 
 /*****************     singleShow page     *****************/
 .poster img {
   width: 100%; }
+
+.about div {
+  margin-bottom: 5px; }
+.about h1 {
+  margin: 25px;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 4px; }
+
+.descript {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .descript .description {
+    text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */

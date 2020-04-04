@@ -1,5 +1,9 @@
 /***********   main    ***********/
 
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
 li {
     list-style-type: none;
 }
@@ -35,6 +39,7 @@ li {
         li:hover {
             text-decoration: none;
             color: orange;
+            font-weight: 700;
         }
         a {
             text-decoration: none;
@@ -67,6 +72,9 @@ li {
         align-items: center;
         text-align: center;
     }
+    p {
+        text-align: justify;
+    }
 }
 
 
@@ -75,5 +83,25 @@ li {
 .poster {
     img {
         width: 100%;
+    }
+}
+
+.about {
+    div {
+        margin-bottom: 5px;
+    }
+    h1 {
+        margin: 25px;
+        padding: 10px;
+        background-color: orange;
+        border-radius: 4px;
+    }
+}
+
+.descript {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .description {
+        text-align: justify;
     }
 }

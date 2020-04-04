@@ -35,3 +35,15 @@ export const fetchCrew = (id, onSuccess) => {
         onSuccess(data)
     })
 }
+
+export const fetchAka = (id, onSuccess) => {
+    fetch(`http://api.tvmaze.com/shows/${id}/akas`, (data) => {
+        onSuccess(data);
+    })
+}
+
+export const fetchEpisodes = (id, onSuccess) => {
+    fetch(`http://api.tvmaze.com/shows/${id}/episodes`, (data) => {
+        onSuccess(data);
+    })
+}
