@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  body .container-fluid {
+    padding-left: 0;
+    padding-right: 0; }
+  body .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1; }
+  body .characters {
+    justify-content: center;
+    margin-top: 120px; }
+    body .characters .profiles {
+      margin: 10px;
+      text-align: center;
+      align-items: center; }
+      body .characters .profiles .card-body {
+        height: 70px; }
+      body .characters .profiles .card-footer {
+        padding: 0; }
+        body .characters .profiles .card-footer .button {
+          width: 100%;
+          height: 35px;
+          border: none; }
+        body .characters .profiles .card-footer .like {
+          width: 20px; }
+      body .characters .profiles .button:hover {
+        background-color: orange; }
+
+#singleProfilePage h1 {
+  text-align: center;
+  width: 100%; }
+#singleProfilePage .character {
+  margin-top: 70px; }
+
+/*# sourceMappingURL=style.css.map */
