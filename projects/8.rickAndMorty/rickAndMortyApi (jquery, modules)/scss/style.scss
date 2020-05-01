@@ -1,0 +1,111 @@
+body {
+    background-image: url(../images/profileback.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+.main {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    .card {
+        margin: 20px;
+        .image-abs {
+            position: relative;
+            .abs {
+                position: absolute;
+                bottom: 0px;
+                background-color: black;
+                opacity: 0.7;
+                padding: 10px;
+                margin-bottom: 0px;
+                color: white;
+                width: 100%;
+            }
+        }
+        .likeBtn {
+            width: 100%;
+            border: none;
+            #like {
+                width: 20px;
+            }
+        }
+    }
+}
+
+// single profile information
+.info {
+    padding: 10px;
+    background-color: white;
+    opacity: 0.9;
+    span {
+        color: orange;
+    }
+    h4 {
+        border-bottom: 2px solid black;
+    }
+    h4:last-child {
+        border-bottom: none;
+    }
+}
+
+.location {
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.button-center {
+    justify-content: center;
+    margin-top: 10px;
+    #residents {
+        justify-content: center;
+    }
+}
+
+.loc-card {
+    margin-bottom: 25px;
+}
+
+// .back {
+//     background-color: orange;
+// }
+.active {
+    background-color: orange;
+    // background-color: #298df8
+}
+
+.logo {
+    width: 30px;
+}
+
+
+/*****   sticky footer   ****/
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer {
+    height: 50px;
+}
+
+.foot {
+    width: 100%;
+}

@@ -16,7 +16,7 @@ $(function () {
         }
     }
     var redBorder = $("img:first").addClass("selected");
-    redBorder.removeClass("selected");
+    // redBorder.removeClass("selected");
     var middle = redBorder.parent(first).next(second).children("img:odd").addClass("selected");
     var title = $("<h1>Players</h1>");
     $("body").prepend(title);
