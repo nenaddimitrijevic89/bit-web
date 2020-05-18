@@ -1,0 +1,186 @@
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto; }
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #dc3545;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }
+
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%,
+    70%,
+    100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1); } }
+@keyframes sk-cubeGridScaleDelay {
+  0%,
+    70%,
+    100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1); } }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Barlow', sans-serif; }
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -35px;
+  margin-top: 10px; }
+
+.footer,
+.push {
+  height: 50px; }
+  .footer a,
+  .push a {
+    text-decoration: none;
+    color: white; }
+
+.navB {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  .navB .flex {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly; }
+    .navB .flex .linkH5 {
+      padding: 0px 5px 2px 5px; }
+      .navB .flex .linkH5 a {
+        text-decoration: none;
+        color: white; }
+      .navB .flex .linkH5:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 8px 16px black;
+        background-color: black;
+        border-radius: 15px; }
+    .navB .flex .refreshBtn {
+      width: 25px;
+      height: 25px;
+      position: relative;
+      top: 3px; }
+      .navB .flex .refreshBtn:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 8px 16px black;
+        background-color: black;
+        border-radius: 15px; }
+    .navB .flex .visible {
+      width: 25px;
+      height: 25px;
+      position: relative;
+      top: 3px; }
+      .navB .flex .visible:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 8px 16px black;
+        background-color: black; }
+      .navB .flex .visible #visib {
+        position: absolute;
+        z-index: 1;
+        width: 25px;
+        height: 25px; }
+      .navB .flex .visible #unvisib {
+        position: absolute;
+        z-index: 0;
+        width: 0;
+        display: none; }
+
+.listOfUsers {
+  border-radius: 4px;
+  border-bottom: 2px solid lightgray;
+  box-shadow: 1px 0px 7px -2p;
+  padding-top: 10px; }
+  .listOfUsers:hover {
+    background-color: #dc3545;
+    color: white; }
+  .listOfUsers .flexList {
+    display: flex; }
+    .listOfUsers .flexList .profileCircle {
+      border-radius: 40px; }
+    .listOfUsers .flexList ul {
+      list-style-type: none; }
+
+.gridOfUsers {
+  padding: 15px; }
+  .gridOfUsers .card:hover {
+    background-color: #dc3545;
+    color: white; }
+  .gridOfUsers .image-abs {
+    position: relative; }
+    .gridOfUsers .image-abs .abs {
+      position: absolute;
+      bottom: 0px;
+      background-color: black;
+      opacity: 0.7;
+      padding: 10px;
+      margin-bottom: 0px;
+      color: white;
+      width: 100%; }
+
+.female {
+  background-color: #ffebee; }
+
+.searchBar {
+  margin-top: 80px; }
+  .searchBar .searchBorder {
+    border-top: none;
+    border-left: none;
+    border-right: none; }
+
+#loader {
+  margin-top: 250px; }
+
+.stats {
+  margin-top: 10px;
+  text-align: end;
+  color: gray; }
+
+/*# sourceMappingURL=style.css.map */

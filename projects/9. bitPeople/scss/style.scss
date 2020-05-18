@@ -1,0 +1,169 @@
+@import 'animation';
+@mixin hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 16px black;
+    background-color: black;
+}
+
+//sticky footer
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -35px;
+    margin-top: 10px;
+}
+
+.footer,
+.push {
+    height: 50px;
+    // span {
+    //     width: 100%;
+    // }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+//navbar
+.navB {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    .flex {
+        width: 35%;
+        display: flex;
+        justify-content: space-evenly;
+        .linkH5 {
+            padding: 0px 5px 2px 5px;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            &:hover {
+                @include hover;
+                border-radius: 15px;
+            }
+        }
+        .refreshBtn {
+            width: 25px;
+            height: 25px;
+            position: relative;
+            top: 3px;
+            &:hover {
+                @include hover;
+                border-radius: 15px;
+            }
+        }
+        .visible {
+            width: 25px;
+            height: 25px;
+            position: relative;
+            top: 3px;
+            &:hover {
+                @include hover;
+            }
+            #visib {
+                position: absolute;
+                z-index: 1;
+                width: 25px;
+                height: 25px;
+            }
+            #unvisib {
+                position: absolute;
+                z-index: 0;
+                width: 0;
+                display: none;
+            }
+        }
+    }
+}
+
+//list of users
+.listOfUsers {
+    border-radius: 4px;
+    border-bottom: 2px solid lightgray;
+    box-shadow: 1px 0px 7px -2p;
+    padding-top: 10px;
+    &:hover {
+        background-color: #dc3545;
+        color: white;
+    }
+    .flexList {
+        display: flex;
+        .profileCircle {
+            border-radius: 40px;
+        }
+        ul {
+            list-style-type: none;
+        }
+    }
+}
+
+// .switch {
+//     width: 25px;
+//     height: 25px;
+// }
+// .switchOn {
+//     background-image: url(../images/grid.png);
+//     background-size: contain;
+//     background-position: center;
+//     height: 25px;
+// }
+// .switchOff {
+//     background-image: url(../images/list.png);
+//     background-size: cover;
+//     height: 25px;
+// }
+//grid of users
+.gridOfUsers {
+    padding: 15px;
+    .card:hover {
+        background-color: #dc3545;
+        color: white;
+    }
+    .image-abs {
+        position: relative;
+        .abs {
+            position: absolute;
+            bottom: 0px;
+            background-color: black;
+            opacity: 0.7;
+            padding: 10px;
+            margin-bottom: 0px;
+            color: white;
+            width: 100%;
+        }
+    }
+}
+
+.female {
+    background-color: #ffebee;
+}
+
+//search bar
+.searchBar {
+    margin-top: 80px;
+    .searchBorder {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+#loader {
+    margin-top: 250px;
+}
+
+.stats {
+    margin-top: 10px;
+    text-align: end;
+    color: gray;
+}
