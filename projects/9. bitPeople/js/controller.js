@@ -22,10 +22,9 @@ const refreshBtn = refresh();
 refreshBtn.addEventListener("click", () => {
 
     fetchData(getRenderFn())
-        //timer
-        // localStorage.setItem("updateTimer", new Date())
-        // const date = localStorage.getItem("updateTimer");
-        // console.log(date)
+
+    setInterval(timer, 1000);
+
 })
 
 const search = () => {
@@ -47,4 +46,22 @@ const getRenderFn = () => {
     const gridView = localStorage.getItem("truth");
     const render = gridView === 'true' ? renderGridUsers : renderListUsers;
     return render;
+}
+
+let timer = () => {
+    const d = localStorage.getItem("updateTimer")
+    let time = new Date().getTime();
+    let a = new Date(time - Number(d)).getTime() / 1000;
+    let b = 0;
+    if (a < 60) {
+        console.log(a, time, Number(d))
+        console.log("passed few seconds")
+    }
+    if (a > 60) {
+        b = a / 60;
+        console.log(`passed ${a/60}`)
+    }
+    if (b > 60) {
+        console.log("passed an hour")
+    }
 }

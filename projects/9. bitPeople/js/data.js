@@ -1,4 +1,5 @@
 export const fetchData = (onSuccess) => {
+    localStorage.setItem("updateTimer", new Date().getTime())
     const loader = document.querySelector("#loader");
     loader.style.display = "block";
     let $searchBar = document.querySelector("div.searchBar");
