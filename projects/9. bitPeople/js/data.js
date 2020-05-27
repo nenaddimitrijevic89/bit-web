@@ -1,5 +1,6 @@
 export const fetchData = (onSuccess) => {
-    localStorage.setItem("updateTimer", new Date().getTime())
+    const markDate = new Date();
+    localStorage.setItem("markDate", markDate)
     const loader = document.querySelector("#loader");
     loader.style.display = "block";
     let $searchBar = document.querySelector("div.searchBar");
@@ -12,7 +13,7 @@ export const fetchData = (onSuccess) => {
         .then(response => response.json())
         .then(data => {
             onSuccess(data)
-            localStorage.setItem("user", JSON.stringify(data))
+            localStorage.setItem("users", JSON.stringify(data))
         })
         .catch(err => console.log(err))
 }

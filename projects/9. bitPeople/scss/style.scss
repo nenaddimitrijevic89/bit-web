@@ -107,21 +107,6 @@ body {
     }
 }
 
-// .switch {
-//     width: 25px;
-//     height: 25px;
-// }
-// .switchOn {
-//     background-image: url(../images/grid.png);
-//     background-size: contain;
-//     background-position: center;
-//     height: 25px;
-// }
-// .switchOff {
-//     background-image: url(../images/list.png);
-//     background-size: cover;
-//     height: 25px;
-// }
 //grid of users
 .gridOfUsers {
     padding: 15px;
@@ -166,4 +151,21 @@ body {
     margin-top: 10px;
     text-align: end;
     color: gray;
+}
+
+.imgNotFound {
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .git,
+    .linkH5 {
+        display: none;
+    }
+}
+
+@media only screen and(min-width: 600px) {
+    .navB>span {
+        width: 52%;
+    }
 }
