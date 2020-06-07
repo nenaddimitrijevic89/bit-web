@@ -1,7 +1,8 @@
 import { fetchAllCharacters, fetchSingleCharacter, fetchAllEpisodes, fetchAllLocations, fetchEpisode, fetchLocation } from "./data.js"
 import {
     renderAllCharacters,
-    goNext, goPrevious,
+    goNext,
+    goPrevious,
     renderSingleCharacter,
     renderLocation,
     getResidents,
@@ -70,15 +71,35 @@ export const homePage = () => {
     })
     buttonLeft().addEventListener("click", () => {
         let pageId = localStorage.getItem("id");
-        console.log(pageId)
+        const a = buttonCenter();
+        a.className = "page-link";
+        const b = buttonLeft();
+        b.className = "page-link actBtn";
+        const c = buttonRight();
+        c.className = "page-link";
+        id = pageId;
         fetchAllCharacters(pageId, renderAllCharacters)
     })
     buttonRight().addEventListener("click", () => {
         let pageId = localStorage.getItem("id2");
+        const a = buttonCenter();
+        a.className = "page-link";
+        const b = buttonLeft();
+        b.className = "page-link";
+        const c = buttonRight();
+        c.className = "page-link actBtn";
+        id = pageId;
         fetchAllCharacters(pageId, renderAllCharacters)
     })
     buttonCenter().addEventListener("click", () => {
         let pageId = localStorage.getItem("id3");
+        const a = buttonCenter();
+        a.className = "page-link actBtn";
+        const b = buttonLeft();
+        b.className = "page-link";
+        const c = buttonRight();
+        c.className = "page-link";
+        id = pageId;
         fetchAllCharacters(pageId, renderAllCharacters);
     })
 }

@@ -18,7 +18,7 @@ export const renderAllCharacters = (data) => {
     $div.html("");
     let $img = "";
 
-    $(data.results).each(function (element) {
+    $(data.results).each(function(element) {
         $img += `
         <div class="col mb-4">
         <div class="card back">
@@ -35,7 +35,7 @@ export const renderAllCharacters = (data) => {
       </div>`
     });
     $div.append($img);
-    $("button").on("click", function () {
+    $("button").on("click", function() {
         $(this).toggleClass("active");
     })
 }
@@ -132,7 +132,7 @@ export const pagination = (counter) => {
         if (a === 0) {
             displayButton()
         }
-        if (c === 28) {
+        if (c === 31) {
             button3.style.display = "none";
         }
         button.textContent = a;
@@ -145,5 +145,3 @@ export const displayButton = () => {
     let button = document.querySelector(".but1>a");
     button.style.display = "none";
 }
-
-
