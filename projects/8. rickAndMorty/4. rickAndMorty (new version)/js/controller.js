@@ -1,4 +1,11 @@
-import { fetchAllCharacters, fetchSingleCharacter, fetchAllEpisodes, fetchAllLocations, fetchEpisode, fetchLocation } from "./data.js"
+import {
+    fetchAllCharacters,
+    fetchSingleCharacter,
+    fetchAllEpisodes,
+    fetchAllLocations,
+    fetchEpisode,
+    fetchLocation
+} from "./data.js"
 import {
     renderAllCharacters,
     goNext,
